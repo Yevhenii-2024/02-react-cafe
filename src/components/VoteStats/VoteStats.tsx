@@ -13,7 +13,7 @@ export default function VoteStats({votes, totalVotes, positiveRate}: VoteStatsPr
       <p className={styles.stat}>Neutral: <strong>{votes.neutral}</strong></p>
       <p className={styles.stat}>Bad: <strong>{votes.bad}</strong></p>
       <p className={styles.stat}>Total: <strong>{totalVotes}</strong></p>
-      <p className={styles.stat}>Positive: <strong>{positiveRate}</strong></p>
+      <p className={styles.stat}>Positive: <strong>{positiveRate}%</strong></p>
 </div>)
 
 }
